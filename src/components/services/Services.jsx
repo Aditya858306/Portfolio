@@ -1,15 +1,15 @@
-import React from 'react'
-import './services.css'
-import {BiCheck} from 'react-icons/bi'
+import React from "react";
+import "./services.css";
+import { BiCheck } from "react-icons/bi";
 
 const Services = () => {
   return (
-    <section id='services'>
+    <section id="services">
       <h5>What I Offer</h5>
       <h2>Services</h2>
 
       <div className="container container__services">
-        <article className='service'>
+        {/* <article className='service'>
           <div className="service_head">
             <h3>UI/UX Design</h3>
           </div>
@@ -47,99 +47,93 @@ const Services = () => {
 
 
           </ul>
-        </article>
+        </article> */}
 
-
-
-        <article className='service'>
+        <article className="service">
           <div className="service_head">
             <h3>Web Development</h3>
           </div>
 
-          <ul className='service__list'>
+          <ul className="service__list">
             <li>
-            <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet.</p>
+              <BiCheck className="service__list-icon" />
+              <p>Create a normal Frontend Website</p>
             </li>
 
             <li>
-            <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet.</p>
+              <BiCheck className="service__list-icon" />
+              <p>Create a Frontend Website using React JS.</p>
             </li>
 
             <li>
-            <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet.</p>
+              <BiCheck className="service__list-icon" />
+              <p>Create a Frontend Website using React UI.</p>
             </li>
 
             <li>
-            <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet.</p>
+              <BiCheck className="service__list-icon" />
+              <p>Create a Frontend React JS Website using a backend Node JS.</p>
             </li>
 
             <li>
-            <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet.</p>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Create a Frontend React JS Website using Node JS and MongoDB.
+              </p>
             </li>
 
             <li>
-            <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet.</p>
+              <BiCheck className="service__list-icon" />
+              <p>Create a Mern stack Aplication.</p>
             </li>
 
             <li>
-            <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet.</p>
+              <BiCheck className="service__list-icon" />
+              <p>create a Full stack Aplication.</p>
             </li>
-
-            
           </ul>
         </article>
 
-
-
-        <article className='service'>
+        {/* <article className="service">
           <div className="service_head">
             <h3>Content Creation</h3>
           </div>
 
-          <ul className='service__list'>
+          <ul className="service__list">
             <li>
-            <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet.</p>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit amet.</p>
             </li>
 
             <li>
-            <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet.</p>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit amet.</p>
             </li>
 
             <li>
-            <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet.</p>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit amet.</p>
             </li>
 
             <li>
-            <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet.</p>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit amet.</p>
             </li>
 
             <li>
-            <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet.</p>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit amet.</p>
             </li>
 
             <li>
-            <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet.</p>
+              <BiCheck className="service__list-icon" />
+              <p>Lorem ipsum dolor sit amet.</p>
             </li>
-
-            
           </ul>
-        </article>
+        </article> */}
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Services
+export default Services;
